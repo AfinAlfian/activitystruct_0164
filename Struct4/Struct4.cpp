@@ -25,5 +25,10 @@ int main()
         getline(cin,mhs[i].nim);
         cout << "Nama Mahasiswa : ";
         getline(cin,mhs[i].nama);
+        cout << "Alamat Mahasiswa : " << endl;
+        cout << "\tNama Desa : ";
+        cin >> mhs[i].alamat.desa;
+        cout << "\tNama Kota : ";
+        cin >> mhs[i].alamat.kota;
     }
 }
