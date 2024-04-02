@@ -30,5 +30,9 @@ int main()
         cin >> mhs[i].alamat.desa;
         cout << "\tNama Kota : ";
         cin >> mhs[i].alamat.kota;
+        cout << "Umur Mahasiswa : ";
+        cin >> mhs[i].umur;
+        cin.ignore(1, '\n');
+        cout << endl;
     }
 }
